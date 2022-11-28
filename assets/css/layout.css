@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+.d-none {
+  display: none;
+}
+.d-flex {
+  display: flex;
+}
+.d-flex-col {
+  flex-direction: column;
+}
+.d-flex-row {
+  flex-direction: row;
+}
+.d-flex-jc-f-start {
+  justify-content: flex-start;
+}
+.d-flex-jc-f-end {
+  justify-content: flex-end;
+}
+.d-flex-jc-center {
+  justify-content: center;
+}
+.d-flex-jc-space-around {
+  justify-content: space-around;
+}
+.d-flex-jc-space-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+
+/*# sourceMappingURL=layout.css.map */

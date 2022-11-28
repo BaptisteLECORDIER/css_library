@@ -1,0 +1,108 @@
+@import './variable.scss';
+
+// -------------------------------------------------------------------
+
+html {
+    font-family: $main_font;
+    color: $color_font;
+    background-color: $bg_page;
+}
+
+// -------------------------------------------------------------------
+
+.txt {
+    @each $color, $i in $colors {
+        &-#{$color} {
+            color: $i;
+        }
+    }
+
+    @each $size, $i in $sizes {
+        &-#{$size} {
+            font-size: $i;
+        }
+    }
+
+    &-cut { 
+        text-overflow: ellipsis;
+        overflow: hidden; 
+        white-space: nowrap;
+    }
+}
+
+// -------------------------------------------------------------------
+
+.border {
+    @each $size, $i in $sizes {
+        &-rad-#{$size} {
+            border-radius: $i;
+        }
+    }
+
+    @each $color, $i in $colors {
+        &-#{$color} {
+            border-color: $i;
+        }
+    }
+
+    @each $size, $i in $sizes {
+        &-#{$size} {
+            border-width: $i;
+        }
+    }
+
+    &-none {
+        border: none;
+    }
+}
+
+// -------------------------------------------------------------------
+
+.bg {
+    &-none {
+        background: none;
+    }
+
+    @each $color, $i in $colors {
+        &-#{$color} {
+            background-color: $i;
+        }
+    }
+
+    @each $color, $i in $colors {
+        &-#{$color}-hover {
+            background-color: $i;
+        }
+    }
+
+    @each $color_hover, $i in $colors_hover {
+        &-#{$color_hover}-hover:hover {
+            background-color: $i;
+        }
+    }
+
+    @each $color_txt, $i in $colors_txt {
+        &-#{$color_txt}-hover * {
+            color: $i;
+        }
+    }
+
+    @each $color_txt_hover, $i in $colors_txt_hover {
+        &-#{$color_txt_hover}-hover:hover * {
+            color: $i;
+        }
+    }
+}
+
+// -------------------------------------------------------------------
+
+.opacity {
+    @each $percent, $i in $percents {
+        &-#{$percent} {
+            opacity: $i;
+        }
+    }
+}
+
+// -------------------------------------------------------------------
+

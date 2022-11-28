@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+html {
+  font-family: "Roboto", sans-serif;
+  color: #262626;
+}
+
+.txt-main {
+  color: #2471a3;
+}
+.txt-second {
+  color: #ff9500;
+}
+.txt-success {
+  color: #28b463;
+}
+.txt-info {
+  color: #2ba2b7;
+}
+.txt-warning {
+  color: #C70039;
+}
+.txt-light {
+  color: #eeeeee;
+}
+.txt-dark {
+  color: #262626;
+}
+.txt-none {
+  font-size: 0px;
+}
+.txt-xx-sm {
+  font-size: 5px;
+}
+.txt-x-sm {
+  font-size: 7px;
+}
+.txt-sm {
+  font-size: 10px;
+}
+.txt-md {
+  font-size: 12px;
+}
+.txt-l {
+  font-size: 15px;
+}
+.txt-x-l {
+  font-size: 17px;
+}
+.txt-xx-l {
+  font-size: 20px;
+}
+.txt-max {
+  font-size: 1920px;
+}
+.txt-cut {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.border-rad-none {
+  border-radius: 0px;
+}
+.border-rad-xx-sm {
+  border-radius: 5px;
+}
+.border-rad-x-sm {
+  border-radius: 7px;
+}
+.border-rad-sm {
+  border-radius: 10px;
+}
+.border-rad-md {
+  border-radius: 12px;
+}
+.border-rad-l {
+  border-radius: 15px;
+}
+.border-rad-x-l {
+  border-radius: 17px;
+}
+.border-rad-xx-l {
+  border-radius: 20px;
+}
+.border-rad-max {
+  border-radius: 1920px;
+}
+.border-main {
+  border-color: #2471a3;
+}
+.border-second {
+  border-color: #ff9500;
+}
+.border-success {
+  border-color: #28b463;
+}
+.border-info {
+  border-color: #2ba2b7;
+}
+.border-warning {
+  border-color: #C70039;
+}
+.border-light {
+  border-color: #eeeeee;
+}
+.border-dark {
+  border-color: #262626;
+}
+.border-none {
+  border-width: 0px;
+}
+.border-xx-sm {
+  border-width: 5px;
+}
+.border-x-sm {
+  border-width: 7px;
+}
+.border-sm {
+  border-width: 10px;
+}
+.border-md {
+  border-width: 12px;
+}
+.border-l {
+  border-width: 15px;
+}
+.border-x-l {
+  border-width: 17px;
+}
+.border-xx-l {
+  border-width: 20px;
+}
+.border-max {
+  border-width: 1920px;
+}
+.border-none {
+  border: none;
+}
+
+.bg-none {
+  background: none;
+}
+.bg-main {
+  background-color: #2471a3;
+}
+.bg-second {
+  background-color: #ff9500;
+}
+.bg-success {
+  background-color: #28b463;
+}
+.bg-info {
+  background-color: #2ba2b7;
+}
+.bg-warning {
+  background-color: #C70039;
+}
+.bg-light {
+  background-color: #eeeeee;
+}
+.bg-dark {
+  background-color: #262626;
+}
+.bg-main-hover {
+  background-color: #2471a3;
+}
+.bg-second-hover {
+  background-color: #ff9500;
+}
+.bg-success-hover {
+  background-color: #28b463;
+}
+.bg-info-hover {
+  background-color: #2ba2b7;
+}
+.bg-warning-hover {
+  background-color: #C70039;
+}
+.bg-light-hover {
+  background-color: #eeeeee;
+}
+.bg-dark-hover {
+  background-color: #262626;
+}
+.bg-main-hover:hover {
+  background-color: #1e5b85;
+}
+.bg-second-hover:hover {
+  background-color: #ff9500;
+}
+.bg-success-hover:hover {
+  background-color: #28b463;
+}
+.bg-info-hover:hover {
+  background-color: #2ba2b7;
+}
+.bg-warning-hover:hover {
+  background-color: #C70039;
+}
+.bg-light-hover:hover {
+  background-color: #d1d1d1;
+}
+.bg-dark-hover:hover {
+  background-color: #1f1f1f;
+}
+.bg-main-hover * {
+  color: #ffffff;
+}
+.bg-second-hover * {
+  color: #ffffff;
+}
+.bg-success-hover * {
+  color: #ffffff;
+}
+.bg-info-hover * {
+  color: #ffffff;
+}
+.bg-warning-hover * {
+  color: #ffffff;
+}
+.bg-light-hover * {
+  color: #121212;
+}
+.bg-dark-hover * {
+  color: #ffffff;
+}
+.bg-main-hover:hover * {
+  color: #ffffff;
+}
+.bg-second-hover:hover * {
+  color: #ffffff;
+}
+.bg-success-hover:hover * {
+  color: #ffffff;
+}
+.bg-info-hover:hover * {
+  color: #ffffff;
+}
+.bg-warning-hover:hover * {
+  color: #ffffff;
+}
+.bg-light-hover:hover * {
+  color: #121212;
+}
+.bg-dark-hover:hover * {
+  color: #ffffff;
+}
+
+.opacity-0 {
+  opacity: 0%;
+}
+.opacity-10 {
+  opacity: 10%;
+}
+.opacity-20 {
+  opacity: 20%;
+}
+.opacity-30 {
+  opacity: 30%;
+}
+.opacity-40 {
+  opacity: 40%;
+}
+.opacity-50 {
+  opacity: 50%;
+}
+.opacity-60 {
+  opacity: 60%;
+}
+.opacity-70 {
+  opacity: 70%;
+}
+.opacity-80 {
+  opacity: 80%;
+}
+.opacity-90 {
+  opacity: 90%;
+}
+.opacity-100 {
+  opacity: 100%;
+}
+
+/*# sourceMappingURL=themes.css.map */

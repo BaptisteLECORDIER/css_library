@@ -1,0 +1,56 @@
+@import './variable.scss';
+
+.d {
+    &-none {
+        display: none;
+    }
+
+    &-flex {
+        display: flex;
+
+        &-col {
+            flex-direction: column;
+        }
+
+        &-row {
+            flex-direction: row;
+        }
+
+        &-jc {
+            &-f-start{
+                justify-content: flex-start;
+            }
+
+            &-f-end{
+                justify-content: flex-end;
+            }
+
+            &-center{
+                justify-content: center;
+            }
+
+            &-space-around{
+                justify-content: space-around;
+            }
+
+            &-space-between{
+                justify-content: space-between;
+            }
+        }
+    }
+}
+
+.align-items {
+    &-center {
+        align-items: center;
+    }
+
+    &-start {
+        align-items:flex-start;
+    }
+
+    &-end {
+        align-items:flex-end;
+    }
+}
+

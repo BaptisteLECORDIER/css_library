@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@keyframes btn-hover-arrow {
+  from {
+    opacity: 0;
+    right: 20px;
+  }
+  to {
+    opacity: 100;
+    right: -10px;
+  }
+}
+@keyframes btn-hover-arrow-reverse {
+  from {
+    opacity: 100;
+    right: -10px;
+  }
+  to {
+    opacity: 0;
+    right: 20px;
+  }
+}
+@keyframes btn-rotate {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
+.btn {
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-rotate:hover > * {
+  animation-name: btn-rotate;
+  animation-duration: 0.15s;
+  animation-fill-mode: forwards;
+}
+.btn .btn__arrow {
+  position: relative;
+  opacity: 0;
+  top: 2px;
+}
+.btn:hover .animated-arrow {
+  animation-name: btn-hover-arrow;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.btn .animated-arrow {
+  animation-name: btn-hover-arrow-reverse;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+}
+.btn p {
+  position: relative;
+  top: 2px;
+  margin-right: 0px;
+}
+
+.search-bar {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  border: 1px solid;
+}
+.search-bar .btn {
+  padding: 10px;
+}
+.search-bar input {
+  border: none;
+  width: 200px;
+  padding-left: 20px;
+}
+.search-bar input:focus {
+  outline: none;
+}
+
+.searchbar-dynamic-focus {
+  border: #2471a3 1px solid;
+}
+.searchbar-dynamic-focus input::placeholder {
+  color: #2471a3;
+}
+
+.btn-search-bar-cross {
+  overflow: hidden;
+}
+
+@keyframes search-bar-cross-not-visible {
+  from {
+    width: 300px;
+  }
+  to {
+    width: 270px;
+  }
+}
+@keyframes search-bar-cross-visible {
+  from {
+    width: 270px;
+  }
+  to {
+    width: 300px;
+  }
+}
+@keyframes btn-search-bar-cross-visible {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 30px;
+  }
+}
+@keyframes btn-search-bar-cross-not-visible {
+  from {
+    width: 30px;
+  }
+  to {
+    width: 0px;
+  }
+}
+.search-bar-cross-not-visible {
+  animation-name: search-bar-cross-not-visible;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.search-bar-cross-not-visible .btn-search-bar-cross {
+  animation-name: btn-search-bar-cross-not-visible;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+.search-bar-cross-visible {
+  animation-name: search-bar-cross-visible;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+.search-bar-cross-visible .btn-search-bar-cross {
+  animation-name: btn-search-bar-cross-visible;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=state.css.map */
